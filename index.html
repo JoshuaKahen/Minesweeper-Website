@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        
+        <link rel="icon" type="image/png" href="https://venus.cs.qc.cuny.edu/~kajo4540/Minesweeper/Images/winkyface.png"/>
+        <title>Minesweeper by Joshua Kahen</title>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js" charset="utf-8"></script>
+    </head>
+
+    <body>
+        <div id="nav-placeholder">
+
+        </div>
+        
+        <script>
+        $(function(){
+          $("#nav-placeholder").load("navigation.html");
+        });
+        </script>
+    
+    </body>
+
+    <body>
+
+        <div class="game">
+            
+            <h1 style="text-align: center;">Minesweeper</h1>
+            <div id='mydiv'>Flags left: <span id='flags'>20</span></div>
+
+            <div class="panel">   
+            </div>
+
+
+            <button id="reset" class="reset" >Reset</button> 
+
+
+        </div>
+
+        <div class="pop-up">
+            <h1 id="status">You Won!!!</h1>
+            <button id="close">Close</button>
+        </div>
+
+
+        
+        </body>
+
+        
+</html>
